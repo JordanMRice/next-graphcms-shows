@@ -43,8 +43,7 @@ export default function Shows({ shows }) {
       <Title>Shows</Title>
        
           <Button onClick={toggleView} text="Grid" />
-       
-          
+         
 
       <List>
 
@@ -52,7 +51,7 @@ export default function Shows({ shows }) {
           <Card href={`/show/${show.slug}`} header={show.title} key={show.id}>
             <p>{show.artists.map(({ fullName }) => fullName).join(', ')}</p>
               <small>{show.scheduledStartTime} </small>
-              <small>{show.artists.ticketPrice}</small>
+              <h5>Price: ${show.ticketPrice} per ticket</h5>
               
           </Card>
         ))}
