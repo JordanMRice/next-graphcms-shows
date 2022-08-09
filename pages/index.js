@@ -31,6 +31,10 @@ export default function Home() {
         <Card href="/schemas" header="Schemas">
           <p>View the full schemas for data stored in the GraphCMS database.</p>
         </Card>
+        <Card href="artist" header="Artist">
+          <p>A listing of all artists pulled from the mock data GraphQl store.</p>
+        </Card>
+
       </Grid>
     </Layout>
   ) 
