@@ -14,8 +14,7 @@ export default function Shows({ shows }) {
   function toggleView() {
 
     setToggleViewMode(!toggleViewMode)
-    console.log("we toggled sumn")
-    console.log(shows)
+    
   }
 
   
