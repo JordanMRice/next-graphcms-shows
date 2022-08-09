@@ -38,6 +38,8 @@ const StyledGrid = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 1rem;
+  margin-left: 5rem;
+  margin-right: 1rem;
   width: 100%;
 
   @media (min-width: 600px) {

@@ -13,4 +13,13 @@ module.exports = {
     config.resolve.alias['@l'] = path.join(__dirname, 'lib')
     return config
   },
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: '/pages/show/[slug].js',
+  //       destination: '/pages/404/[slug].js',
+  //       permanent: 'true',
+  //     },
+  //   ]
+  // },
 }

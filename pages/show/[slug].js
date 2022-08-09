@@ -40,7 +40,7 @@ const Portrait = ({ images = [] }) => {
 }
 
 export default function Shows({ show }) {
-  return (
+  return show ? (
     <Layout title={`${show.title} / next-graphcms-shows`} maxWidth="900px" padding="0 2em">
       <Title>{show.title}</Title>
 
@@ -68,7 +68,9 @@ export default function Shows({ show }) {
         </div>
       ))}
     </Layout>
-  )
+  ) : {
+    notfound: true,
+  }
 }
 
 export async function getServerSideProps({ params }) {
