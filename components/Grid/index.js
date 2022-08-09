@@ -4,9 +4,9 @@ import { truncateText } from '@l/utils'
 
 const CardStyle = css`
   margin: 1rem;
-  flex-basis: 45%;
+  flex-basis: 30%;
   padding: 1.5rem;
-  text-align: left;
+  text-align: center;
   color: inherit;
   text-decoration: none;
   border: 1px solid var(--gallery-grey);
@@ -38,9 +38,11 @@ const StyledGrid = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 1rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
   width: 100%;
 
-  @media (min-width: 600px) {
+  @media (min-width: 300px) {
     width: auto;
     flex-direction: row;
   }

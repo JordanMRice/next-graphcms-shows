@@ -14,11 +14,11 @@ const StyledRow = styled.div`
 
   @media (min-width: 600px) {
     flex-direction: row;
-    align-items: stretch;
+    align-items: center;
     justify-content: ${(p) => p.justify};
     
     a {
-      margin: 0 0 0 1em;
+      margin: 0 0 0 0;
       :first-child {
         margin: 0;
       }
