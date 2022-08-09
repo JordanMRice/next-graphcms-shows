@@ -2,14 +2,24 @@ import Layout from '@c/Layout'
 import { Grid, Card } from '@c/Grid'
 import { Title, SubTitle } from '@c/Title'
 
+
+
 export default function Home() {
+
+  
   return (
+
+
     <Layout title="next-graphcms-shows / Home" maxWidth="800px">
       <Title>next-graphcms-shows</Title>
 
       <SubTitle>
         A Next.js application for displaying fictional live events retrieved from GraphCMS
       </SubTitle>
+
+      
+
+      
 
       <Grid>
         <Card href="/readme" header="README">
@@ -23,5 +33,5 @@ export default function Home() {
         </Card>
       </Grid>
     </Layout>
-  )
+  ) 
 }
